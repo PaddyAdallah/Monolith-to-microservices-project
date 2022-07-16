@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: postgres.cal8bnuystzt.us-east-1.rds.amazonaws.com
+  AWS_BUCKET: klusterr-bucket
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default  
+  JWT_SECRET: postgres
+  URL: https://AB630F8F30DB3A6A9A2F337EF765DF80.gr7.us-east-2.eks.amazonaws.com
